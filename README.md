@@ -14,10 +14,16 @@
 - Breaking problems down step-by-step
 - Reflecting on mistakes and revisiting weak areas
 - Writing explanations to reinforce intuition
-- Consistency over intensity — small daily progress compounds
+- Consistency over intensity-small daily progress compounds
 
 ## Long-Term Goal:
 Develop a deep, intuitive understanding of DSA that strengthens my problem‑solving skills, boosts my confidence, and prepares me for advanced technical challenges.
+
+## File Structure:
+```
+Array_String/
+README.md
+```
 
 ## Language:
 C++
