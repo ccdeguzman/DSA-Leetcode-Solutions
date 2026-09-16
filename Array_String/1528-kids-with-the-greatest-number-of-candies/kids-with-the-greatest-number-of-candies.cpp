@@ -3,7 +3,8 @@ public:
     vector<bool> kidsWithCandies(vector<int>& candies, int extraCandies) {
         vector<bool> result;
         
-        int maxVal = *max_element(candies.begin(), candies.end());
+        // find the maximum value in the vector
+        int maxVal = *max_element(candies.begin(), candies.end()); 
         for (int i = 0; i < candies.size(); i++) {
             if ((extraCandies + candies[i]) >= maxVal) {
                 result.push_back(true);
@@ -14,4 +15,5 @@ public:
         }
         return result;
     }
+    // Christian de Guzman
 };
