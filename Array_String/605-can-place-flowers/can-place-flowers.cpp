@@ -1,38 +1,40 @@
 class Solution {
 public:
     bool canPlaceFlowers(vector<int>& flowerbed, int n) {
-        for (int i = 0; i < flowerbed.size(); i++) {
-            // Skip position if there is a flower
-            if(flowerbed[i] == 1) {
+        for (int i = 0; i < flowerbed.size(); i ++) {
+            // Skip postion if there is a flower already
+            if (flowerbed[i] == 1) {
                 continue;
             }
 
-            // Consider the outside of the flowerbed to be empty
+            // Neighbors 
             int left = 0;
             int right = 0;
 
-            // Checking the left neighbor. It is valid to check once we past the first element
+            // Checking left neighbors. Only valid once we passed first element
             if (i > 0) {
                 left = flowerbed[i - 1];
             }
 
-            // Check the right neighbor. It is valid until we reached the end of the vector
+            // Checking right nerigbors. Only valid until end of vector
             if (i < flowerbed.size() - 1) {
                 right = flowerbed[i + 1];
             }
 
-            // Plant if both left and right neighbors are not occupied
+            // Check if the neighboring beds are empty
             if (left == 0 && right == 0) {
                 flowerbed[i] = 1;
-                n--;
 
-                // Check if we used all the new flowers
-                if (n == 0) {
+                n--;        // Decrement n
+
+                // Check if all of new flowers (n) have been planted
+                if (n == 0){
                     return true;
                 }
             }
         }
-        // Check if there are leftover new flowers
+        // If there left over flowers, then false is returned
         return n <= 0;
     }
+    // Christian de Guzman
 };
