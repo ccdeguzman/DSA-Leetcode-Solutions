@@ -11,7 +11,7 @@ The Weakness Tracker Table will serve as a way to keep track of problems that I 
 ---
 ### Weakness Tracker
 | **Date** | **Problem** | **Difficulty** | **Pattern Tags** |
-|---|---|---|---:|---|
+|---|---|---|---:|
 | 2026-09-24 | 238. Product of Array Except Self | Medium | Array; Prefix Sum |
 
 **Columns explained**
