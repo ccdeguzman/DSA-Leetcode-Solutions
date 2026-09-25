@@ -1,5 +1,5 @@
 # Weakness Tracker
-This is to document and problems, measure progress, and run spaced repetition for DSA.
+This is to document problems, measure progress, and run spaced repetition for DSA.
 ---
 ### Objective
 - The goal is to re-solve 1-3 problems a week to run spaced repetitions in order to get better at DSA and problem solving.
