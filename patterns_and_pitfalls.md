@@ -2,8 +2,8 @@
 This is to document and problems, measure progress, and run spaced repetition for DSA.
 ---
 ### Objective
-The goal is to re-solve 1-3 problems a week to run spaced repetitions in order to get better at DSA and problem solving.
-The Weakness Tracker Table will serve as a way to keep track of problems that I fail repeatedly. 
+- The goal is to re-solve 1-3 problems a week to run spaced repetitions in order to get better at DSA and problem solving.
+- The Weakness Tracker Table will serve as a way to keep track of problems that I fail repeatedly. 
 ---
 ### How to Use:
 1. Every week select, at random, problem(s) I have solved before to re-solve.
